@@ -1,0 +1,2 @@
+# ML_Model_Montney
+A design of experiments (DOE) analysis over the data base that I prepared in the previous project (database_prep_Montney) revealed that the average gas production rate was a strong function of eight features, including well geometry, completion interval, and completion design parameters. Using the modified database, I then optimized the model to find the best hyperparameter for the ANN using grid search strategies. The parameters to tune are optimizer, kernel_initializer, epochs, batches, weight_constraint, and dropout_rate.
